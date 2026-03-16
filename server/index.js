@@ -28,7 +28,7 @@ app.get('/api/todos', todoControllers.listTodos);
 app.get('/api/todos/:id', todoControllers.findTodo);
 app.post('/api/todos', todoControllers.createTodo);
 app.patch('/api/todos/:id', todoControllers.updateTodo);
-app.delete('/api/todos/:id', todoControllers.deleteTodo);;
+app.delete('/api/todos/:id', todoControllers.deleteTodo);
 
 // TODO: Catch-all handler — send a 404 JSON error for unmatched /api routes,
 // or serve index.html for all other routes (SPA fallback)
