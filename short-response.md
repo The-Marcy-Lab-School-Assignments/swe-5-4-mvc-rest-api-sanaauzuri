@@ -24,7 +24,7 @@ What problem is caused by mixing data logic and request/response logic in a sing
 
 **Your answer here**:
 
-When all the data logic and request/response logic is in a single file, it becomes a code monolith. Separating them into a model and controller give each file a clear function
+When all the data logic and request/response logic is in a single file, it becomes a code monolith. Separating them into a model and controller give each file a clear function.
 <!-- Will re-do -->
 
 ## Question 3 — Request Lifecycle
